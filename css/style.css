@@ -78,3 +78,33 @@
   color: #444343;
   margin-bottom: 8px;
 }
+/* My Plan Section Styles */
+.my-plan-section{
+  width: 180;
+  height: 50px;
+  margin: 0 auto;
+}
+.my-plan-section-title{
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.plans-items-container{
+  display: flex;
+  gap: 86px;
+  justify-content: center;
+}
+.plan-item-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.plan-item-description{
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 16px;
+}
