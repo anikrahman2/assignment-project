@@ -10,7 +10,7 @@
 }
 .banner{
   background-image: url(../images/banner/banner3.png);
-  width: 1600px;
+  width: 100%;
   height: 800px;
   background-repeat: no-repeat;  
   
@@ -132,4 +132,71 @@
 .btn-2nd{
   margin-left: 65px;
   
+}
+/* Footer Section Styles */
+.footer{
+  height: 577px;
+  background: #151414;
+  margin-top: 130px;
+  width: 100%;
+  color: #fff;
+}
+.social-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 230px;
+}
+.social{
+  width: 485px;
+  margin-top: 130px;
+}
+.social-title{
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.social-description{
+  margin-bottom: 24px;
+}
+.social-other{
+  margin-bottom: 16px;
+}
+.social-icon{
+  text-decoration: none;
+}
+.footer-right{
+  margin-top: 130px;
+  
+}
+.subscribe{
+  margin-top: 31px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+footer input{
+  display: block;
+  
+}
+#email{
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  background-color: #151414;
+  border-radius: 5px;
+  color:#ffffff;
+  padding: 20px 100px 20px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 100px;
+}
+#submit{
+  background: #005fac;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 100px;
 }
