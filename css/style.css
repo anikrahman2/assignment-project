@@ -4,12 +4,16 @@
   font-family: "work sans", sans-serif;
 }
 /* Banner Styles */
+.header{
+  margin-bottom: 130px;
+  
+}
 .banner{
   background-image: url(../images/banner/banner3.png);
   width: 1600px;
   height: 800px;
+  background-repeat: no-repeat;  
   
-  position: absolute;
 
 }
 .banner-title{
@@ -17,7 +21,7 @@
   font-size: 65px;
   font-weight: 700;
   text-align: right;
-  margin: 208px 230px 30px 845px;
+  padding: 208px 230px 30px 845px;
   width: 525px;
   height: 228px;
   color: #fff;
@@ -41,4 +45,36 @@
   border: none;
   border-radius: 5px;
 
+}
+
+/* Failures Section Styles */
+.failure-section{
+  margin-top: 130px;
+  max-width: 1075px;
+  max-height: 725px;
+  margin: 0 auto;
+}
+.failure-section-container{
+  
+  display: flex;
+  gap: 90px;
+  
+}
+.failure-section-title{
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 288px;
+  height: 94px;
+  margin-top: 370px;
+  margin-bottom: 24px;
+
+}
+.failure-section-description{
+  color: #444343;
+  margin-bottom: 16px;
+}
+.failure-section-description-fact{
+  color: #444343;
+  margin-bottom: 8px;
 }
