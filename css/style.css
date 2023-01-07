@@ -133,6 +133,42 @@
   margin-left: 65px;
   
 }
+/* Team Section styles */
+
+.team-section-title{
+  margin-top: 130px;
+  margin-bottom: 60px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #151414;
+  text-align: center;
+
+}
+.team-section-content{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.team-img{
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+.team-title{
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #151414;
+
+}
+.team-description{
+  font-size: 18px;
+  font-weight: 500;
+  color: #737272;
+}
+
 /* Footer Section Styles */
 .footer{
   height: 577px;
